@@ -30,16 +30,19 @@ class Calculator:
         c = a / b
         #return return value
         return c
-
-    #function to subtract second number from first number
-    def subtraction(num1, num2):
-        return num1 - num2
+    #violates YAGNI
+    #function to add 1 to the passed number
+    def addOne(num1):
+        #Anthony definitley made this stupid function. Does he even know how to center a div? 
+        return num1 + 2 - 1
 
 
 
 calc = Calculator
 print(calc.adding_numbers(1,4))
-print(calc.subtraction(4,1))
+#print(calc.subtraction(4,1))
 print(calc.multiply(6,4))
 print(calc.d(100,4))
+print(calc.addOne(100))
+
     
