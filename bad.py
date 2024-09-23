@@ -3,7 +3,7 @@ class Calcualtor:
         self.num1 = num1
         self.num2 = num2
     
-    # funciton to add numbers 
+    # funciton to add numbers KISS
     def adding_numbers(num1,num2):
         #using a stack because it is OPTIMALLLLLL
         stack = []
