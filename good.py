@@ -24,4 +24,3 @@ print(calc.add(1,4))
 print(calc.subtract(4,1))
 print(calc.multiply(6,4))
 print(calc.divide(100,4))
-    
