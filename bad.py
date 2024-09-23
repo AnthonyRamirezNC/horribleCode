@@ -1,4 +1,4 @@
-class Calcualtor:
+class Calculator:
     # funciton to add numbers 
     # violates KISS principle
     def adding_numbers(num1, num2):
@@ -17,7 +17,7 @@ class Calcualtor:
     def multiply(num1, num2):
         total = 0
         for i in range(num2):
-            total = Calcualtor.adding_numbers(total, num1)
+            total = Calculator.adding_numbers(total, num1)
 
         return total
 
@@ -37,7 +37,7 @@ class Calcualtor:
 
 
 
-calc = Calcualtor
+calc = Calculator
 print(calc.adding_numbers(1,4))
 print(calc.subtraction(4,1))
 print(calc.multiply(6,4))
